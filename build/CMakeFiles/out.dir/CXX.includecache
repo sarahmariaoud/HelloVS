@@ -14,20 +14,14 @@ iostream
 iostream
 -
 
-/Users/sarahmariaeloud/Documents/projects/helloworld/src/bar.cpp
-bar.h
-/Users/sarahmariaeloud/Documents/projects/helloworld/src/bar.h
-
-/Users/sarahmariaeloud/Documents/projects/helloworld/src/foo.cpp
-foo.h
-/Users/sarahmariaeloud/Documents/projects/helloworld/src/foo.h
-
 /Users/sarahmariaeloud/Documents/projects/helloworld/src/main.cpp
 iostream
 -
 vector
 -
 string
+-
+stdlib.h
 -
 foo.h
 -

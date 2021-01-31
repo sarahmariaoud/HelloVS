@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <stdlib.h>
 
 
 #include <foo.h>
@@ -12,8 +13,9 @@ using namespace std;
 
 int main()
 {
+     char *y =  (char*) malloc(100);
 
-    vector<string> msg = {"Hello", "kkkC++", "World", "from", "VS Code", "and the C++ extension!"};
+    vector<string> msg {"Hello", "kkkC++", "World", "from", "VS Code", "and the C++ extension!"};
 
     for (const string& word : msg)
     {
@@ -24,9 +26,8 @@ int main()
     print();
     print2();
 
-   int x= sum(7);
+   int x= sum(7,9);
    cout << x << "test";
 
-
-
+     free(y);
 }
