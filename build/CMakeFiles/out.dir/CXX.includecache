@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/bar.h
+iostream
+-
+
+../includes/foo.h
+iostream
+-
+
+/Users/sarahmariaeloud/Documents/projects/helloworld/src/main.cpp
+iostream
+-
+vector
+-
+string
+-
+foo.h
+-
+bar.h
+/Users/sarahmariaeloud/Documents/projects/helloworld/src/bar.h
+

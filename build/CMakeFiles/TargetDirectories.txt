@@ -1,0 +1,3 @@
+/Users/sarahmariaeloud/Documents/projects/helloworld/build/CMakeFiles/rebuild_cache.dir
+/Users/sarahmariaeloud/Documents/projects/helloworld/build/CMakeFiles/edit_cache.dir
+/Users/sarahmariaeloud/Documents/projects/helloworld/build/CMakeFiles/out.dir
