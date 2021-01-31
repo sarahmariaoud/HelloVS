@@ -21,7 +21,7 @@ int main()
     print2();
 
    int x= sum(7);
-   cout << x;
+   cout << x << "test";
 
 
 
