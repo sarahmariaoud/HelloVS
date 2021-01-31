@@ -8,6 +8,14 @@
     },
     "tasks": [
         {
+            "label": "valgrind",
+            "type": "shell",
+            "command": "valgrind ./out",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            }
+        },
+        {
             "label": "cmake",
             "type": "shell",
             "command": "cmake -DCMAKE_BUILD_TYPE=Debug ..",
